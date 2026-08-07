@@ -41,3 +41,16 @@ marks.append(f6)
 
 marks.sort()
 print(marks)
+
+# create a dictionary using dict
+bn_dh = { "bangladesh":"bangladesch",
+         "desh":"land",
+         "valo":"gut",
+         "pochondor_jayga":"lieblingsland",
+         "ami_tomake_valobasi":"ich_liebe_dich"
+}
+
+translation = bn_dh["ami_tomake_valobasi"] # key value pair access
+print(translation)
+translation = bn_dh.items() # returns a list of tuples
+print(translation)
