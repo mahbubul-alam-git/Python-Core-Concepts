@@ -54,3 +54,25 @@ translation = bn_dh["ami_tomake_valobasi"] # key value pair access
 print(translation)
 translation = bn_dh.items() # returns a list of tuples
 print(translation)
+
+# take users eight numbers and display all unique numbers in a set
+unique_numbers = []
+
+p1 = int(input('Enter number: '))
+unique_numbers.append(p1)
+p2 = int(input('Enter number: '))
+unique_numbers.append(p2)
+p3 = int(input('Enter number: '))
+unique_numbers.append(p3)
+p4 = int(input('Enter number: '))
+unique_numbers.append(p4)
+p5 = int(input('Enter number: '))
+unique_numbers.append(p5)
+p6 = int(input('Enter number: '))
+unique_numbers.append(p6)
+p7 = int(input('Enter number: '))
+unique_numbers.append(p7)
+p8 = int(input('Enter number: '))
+unique_numbers.append(p8)
+
+print(set(unique_numbers))
