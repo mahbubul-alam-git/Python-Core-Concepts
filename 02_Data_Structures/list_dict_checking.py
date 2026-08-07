@@ -76,3 +76,19 @@ p8 = int(input('Enter number: '))
 unique_numbers.append(p8)
 
 print(set(unique_numbers))
+
+# Meine vier Freunde und ihre Liblingsspreche in einem dict
+emp_dict = {}
+
+f1 = input('schreiben Sie ihrer Freund sprache hier : ')
+emp_dict['akkash'] = f1
+f2 = input('schreiben Sie ihrer Freund sprache hier : ')
+emp_dict['sakib'] = f2
+f3 = input('schreiben Sie ihrer Freund sprache hier : ')
+emp_dict['keine_anung'] = f3
+f4 = input('schreiben Sie ihrer Freund sprache hier : ')
+emp_dict['mahbubul'] = f4
+
+print(emp_dict.items())
+
+print(f"Die Lieblingssprache von akkash ist {emp_dict['akkash']}")
