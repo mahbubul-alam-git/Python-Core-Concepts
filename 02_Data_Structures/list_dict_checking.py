@@ -22,7 +22,6 @@ fruits.append(f7)
 
 print(fruits)
 
-
 # This program will take 6 marks from the user and store them in a list. It will then sort the list of marks and print it.
 marks = []
 
@@ -90,5 +89,8 @@ f4 = input('schreiben Sie ihrer Freund sprache hier : ')
 emp_dict['mahbubul'] = f4
 
 print(emp_dict.items())
-
 print(f"Die Lieblingssprache von akkash ist {emp_dict['akkash']}")
+
+# set can not have list as an element
+s = {8,7,12,'hello',[1,2,3]} 
+print(s)
