@@ -19,3 +19,15 @@ elif (a3>a2) and (a3>a1) and (a1>a4):
     print(f"Greatest number is: {a3}")
 elif (a4>a2) and (a4>a3) and (a4>a1):
     print(f"Greatest number is: {a4}")
+
+# a student pass or fail find out by using conditional expression. evey subject marks must be greater than 33 and average must be greater than 40 to pass the exam
+bangla = int(input("Enter your Bangla marks: "))
+english = int(input("Enter your English marks: "))
+math = int(input("Enter your Math marks: "))
+
+avarage = (bangla + english + math) / 3
+
+if avarage >= 40 and bangla >= 33 and english >= 33 and math >= 33:
+    print(f"Congratulations! You have passed the exam with an average of {avarage:.2f}")
+else:
+    print(f"Sorry! You have failed the exam with an average of {avarage:.2f}")
