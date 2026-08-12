@@ -47,3 +47,20 @@ if (len(user) < 10):
     print("your username contains less than 10 characters")
 else:
     print("your username correct length")
+
+# mark grading system 
+user = int(input('Enter your mark:'))
+if (user <= 100 and user >= 90):
+    print('You got EX')
+elif (user >= 80 and user < 90):
+    print('You got A')
+elif (user >= 70 and user < 80):
+    print('You got B')
+elif (user >= 60 and user < 70):
+    print('You got C')
+elif (user >= 50 and user < 60):
+    print('You got D')
+elif (user < 50):
+    print("You got F")
+else:
+    ("Something wrong")
