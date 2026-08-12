@@ -31,3 +31,12 @@ if avarage >= 40 and bangla >= 33 and english >= 33 and math >= 33:
     print(f"Congratulations! You have passed the exam with an average of {avarage:.2f}")
 else:
     print(f"Sorry! You have failed the exam with an average of {avarage:.2f}")
+
+# detect spam comment 
+def_comment = ["make a lot of money", "buy now", "subscribe this", "click this", "check this out", "free gift", "limited time offer", "act now", "don't miss out", "exclusive deal"]
+user = input("Enter your comment: ")
+if user in def_comment:
+    print("This comment is detected as spam.")
+else:
+    print("This comment is not detected as spam.")
+
