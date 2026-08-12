@@ -40,3 +40,10 @@ if user in def_comment:
 else:
     print("This comment is not detected as spam.")
 
+#username length check
+user = input("Enter your username: ")
+
+if (len(user) < 10):
+    print("your username contains less than 10 characters")
+else:
+    print("your username correct length")
