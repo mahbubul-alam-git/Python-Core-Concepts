@@ -9,3 +9,9 @@ l = [1,2,3,4,5,6,[3,32,[5,[0,4],4],0],7,8,9]
 while (len(l) > 0):
     print(l[0])
     l.pop(0)
+
+# write a program to print the numbers from 0 to 10 in steps of 2 
+i = 0
+while (i < 10):
+    i = i + 2
+    print(i)
