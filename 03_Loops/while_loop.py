@@ -15,3 +15,10 @@ i = 0
 while (i < 10):
     i = i + 2
     print(i)
+
+# write a program to print the numbers from 10 to 1 in reverse order
+i = 11 
+while (i > 1):
+    i = i - 1
+    print(i)
+print('Happy code journy')
