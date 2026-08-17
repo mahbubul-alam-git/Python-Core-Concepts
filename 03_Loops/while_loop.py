@@ -22,3 +22,12 @@ while (i > 1):
     i = i - 1
     print(i)
 print('Happy code journy')
+
+# write a program to calculate the sum of numbers from 1 to 10
+i = 0
+summ = 0
+
+while (i < 10):
+    i = i + 1
+    summ = summ + i
+print(summ)
