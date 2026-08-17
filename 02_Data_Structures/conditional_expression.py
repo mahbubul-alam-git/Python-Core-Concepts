@@ -64,3 +64,12 @@ elif (user < 50):
     print("You got F")
 else:
     ("Something wrong")
+
+# checking the selected word is in the comment or not 
+fb_post = " ich liebe deutschland und der leute aber mansch mal ich liebe die USA leute also!"
+if "deutschland" in fb_post:
+    print("The word 'deutschland' is present in the comment.")
+elif "USA" in fb_post:
+    print("The word 'USA' is present in the comment.")
+else:
+    print("The selected words are not present in the comment.")
