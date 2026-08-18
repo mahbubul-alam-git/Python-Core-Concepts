@@ -25,3 +25,8 @@ for i in range(1,10):
     if i == 2:
         continue
     print(i)
+
+# pass is a null statement in python it instucts to "do nothing".
+l = [1,2,3,4,5,6,[3,32,[5,[0,4],4],0],7,8,9]
+for i in l:
+    pass
