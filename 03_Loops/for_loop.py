@@ -12,3 +12,9 @@ for i in range(10,0,-1):
     print(i)
 else:
     print('Done')
+
+# for loop with break statement
+for i in range(0,100):
+    print(i)
+    if (i == 50):
+        break
