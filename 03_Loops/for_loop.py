@@ -18,3 +18,10 @@ for i in range(0,100):
     print(i)
     if (i == 50):
         break
+
+# for loop with continue statement it will skip the current iteration and continue with the next iteration of the loop 
+for i in range(1,10):
+    # print('Printing')
+    if i == 2:
+        continue
+    print(i)
