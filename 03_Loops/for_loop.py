@@ -2,7 +2,13 @@
 l = [ 1,2,3,4,5]
 for item in l:
     print(item)
-
+    
 # write a program to print the numbers from 0 to 10 in steps of 2
 for i in range(0,5,2):
     print(i)
+
+# write a program to print the numbers from 10 to 1 in reverse order and execute the else block after the loop is completed
+for i in range(10,0,-1):
+    print(i)
+else:
+    print('Done')
