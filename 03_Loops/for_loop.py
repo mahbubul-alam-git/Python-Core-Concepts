@@ -30,3 +30,10 @@ for i in range(1,10):
 l = [1,2,3,4,5,6,[3,32,[5,[0,4],4],0],7,8,9]
 for i in l:
     pass
+
+# it will be show the selected index of range 
+for i in range(0, 10)[5:]:
+    print(i)
+    
+# this program print only index 5 of the range from 0 to 10 which is 5
+print(range(0,10)[5])
