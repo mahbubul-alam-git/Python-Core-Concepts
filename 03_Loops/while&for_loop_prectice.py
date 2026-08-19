@@ -18,6 +18,7 @@ while x < 10:
     print(f'{user} X {x} = {user*x}')
 
 # check the prime number
+
 user = int(input('Prime number checker: '))
 if user >1:
     is_prime = True
