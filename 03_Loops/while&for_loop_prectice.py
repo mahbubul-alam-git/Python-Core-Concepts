@@ -34,7 +34,7 @@ if user >1:
 else:
     print(f"{user} is not a prime number")
 
-Write a program to find the sum of first n natural numbers using while loop
+#Write a program to find the sum of first n natural numbers using while loop
 
 n = int(input("Enter a number: "))
 
