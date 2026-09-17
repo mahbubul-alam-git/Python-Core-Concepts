@@ -40,9 +40,15 @@ n = int(input("Enter a number: "))
 
 sum = 0  
 i = 1    
-
 while i <= n:   
     sum = sum + i
     i = i + 1    
-
 print(f"1 to {n} sum result {sum}")
+
+# write a program to calculate the factorial of a give number using for loop .
+n = int(input('Enter your factorial number: '))
+l = 1
+
+for i in range(n,0,-1): 
+    l = l * i # 3*2*1 = 6
+print(f'{n} factorial result is {l}')
