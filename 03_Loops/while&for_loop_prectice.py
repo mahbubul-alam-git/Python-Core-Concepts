@@ -1,24 +1,23 @@
-# this program will print the multiplication table of a given number
+#1 this program will print the multiplication table of a given number
 user = int(input('Enter multiplication table number: '))
 for i in range(1,10+1): 
     # for user in range(1,11):
     print(f'{user} X {i} = {user*i}')
 
-# greet all the person which starts with 'S'
+#2 greet all the person which starts with 'S'
 l = ['Sakib','Soham','Shifat','Sanjoy','Rahul','Akash','Shihab']
 for i in l:
     if i.startswith(('S','s')): 
         print(f'Good Morning {i}')
 
-# write multiplication table with while loop
+#3 write multiplication table with while loop
 user = int(input('Enter multiplication table number: '))
 x = 0
 while x < 10:
     x = x + 1
     print(f'{user} X {x} = {user*x}')
 
-# check the prime number
-
+#4 check the prime number
 user = int(input('Prime number checker: '))
 if user >1:
     is_prime = True
@@ -26,7 +25,6 @@ if user >1:
         if (user % i == 0):
             is_prime = False
             break
-
     if is_prime == True:
         print(f"{user} is a prime number")
     else:
@@ -34,10 +32,8 @@ if user >1:
 else:
     print(f"{user} is not a prime number")
 
-#Write a program to find the sum of first n natural numbers using while loop
-
+# 5 Write a program to find the sum of first n natural numbers using while loop
 n = int(input("Enter a number: "))
-
 sum = 0  
 i = 1    
 while i <= n:   
@@ -45,7 +41,7 @@ while i <= n:
     i = i + 1    
 print(f"1 to {n} sum result {sum}")
 
-# write a program to calculate the factorial of a give number using for loop .
+#6 write a program to calculate the factorial of a give number using for loop .
 n = int(input('Enter your factorial number: '))
 l = 1
 
