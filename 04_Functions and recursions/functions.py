@@ -12,3 +12,9 @@ anywhere in the program.'''
 def greet():
     print('Guten Tag')
 greet()
+
+# write a func to greet a user with "Good Morning"
+user = 'Sakib'
+def greet2():
+    print(f"Good Morning {user}")
+greet2()
