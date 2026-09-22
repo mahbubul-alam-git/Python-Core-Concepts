@@ -2,12 +2,6 @@ def func1():
     print('Hello world') 
 
 func1() 
-''' This code defines a function named `func1` that prints "Hello world" when called. 
-After defining the function, 
-it is called with `func1()`, 
-which will execute the print statement and display "Hello world" in the output.
-The function can be called any number of times, 
-anywhere in the program.'''
 
 def greet():
     print('Guten Tag')
@@ -18,3 +12,16 @@ user = 'Sakib'
 def greet2():
     print(f"Good Morning {user}")
 greet2()
+
+# function default parameter
+def greet(name = "Boss"):
+    print(f"Good Morning {name}")
+
+greet()
+greet('sakib')
+
+# function with arguments
+def greet(name):
+    gre = 'GOOD MORNING' + name
+    return gre
+greet("Sakib")
